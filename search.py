@@ -7,7 +7,7 @@ for i in range(1000000):
     l1.append(i+1)
 l1 = sorted(random.sample(l1, 100))
 print(l1)
-inp = int(input("введите элемент: "))
+inp = int(input("введите элемент, чтобы узнать его индекс: "))
 # линейный поиск
 for i in range(len(l1)):
     if l1[i] == inp:
